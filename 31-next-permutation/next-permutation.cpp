@@ -3,9 +3,7 @@ public:
     void nextPermutation(vector<int>& nums) 
     {
         int n = nums.size();
-        bool isSwap = false;
-
-        
+        bool isSwap = false; 
 
         if(n < 2)
         {
